@@ -1,0 +1,19 @@
+﻿<Window x:Class="VulpMail.View.Views.EmailView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VulpMail.View.Views"
+        mc:Ignorable="d"
+        Title="EmailView" Height="598.007" Width="800">
+    <Grid>
+        <TextBox x:Name="emailSender" IsReadOnly="True" HorizontalAlignment="Left" Height="29" Margin="125,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621" FontSize="18"/>
+        <TextBox x:Name="emailSubject" IsReadOnly="True" HorizontalAlignment="Left" Height="29" Margin="125,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="621" FontSize="18"/>
+        <Label Content="From:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="34,29,0,0" Width="76" Height="39" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Subject:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="34,92,0,0" Width="86" Height="39" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="emailBody" IsReadOnly="True" HorizontalAlignment="Left" Height="342" Margin="34,159,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="712" FontSize="20"/>
+        <Button x:Name="replyButton" Content="Reply" HorizontalAlignment="Left" Margin="349,518,0,0" VerticalAlignment="Top" Width="106" Height="34" FontSize="20"/>
+        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Left" Margin="494,518,0,0" VerticalAlignment="Top" Width="106" Height="34" FontSize="20" RenderTransformOrigin="-0.379,-0.173"/>
+        <Button x:Name="closeButton" Content="Close" HorizontalAlignment="Left" Margin="640,518,0,0" VerticalAlignment="Top" Width="106" Height="34" FontSize="20" RenderTransformOrigin="-0.379,-0.173" />
+    </Grid>
+</Window>
